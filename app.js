@@ -1,5 +1,5 @@
-const keyPublishable = "pk_test_YOURTESTKEY"; // or const keyPublishable = process.env.PUBLISHABLE_KEY;
-const keySecret = "sk_test_YOURTESTKEY"; // or const keySecret = process.env.SECRET_KEY;
+const keyPublishable = "pk_test_6pRNASCoBOKtIshFeQd4XMUh"; // or const keyPublishable = process.env.PUBLISHABLE_KEY;
+const keySecret = "sk_test_BQokikJOvBiI2HlWgH4olfQ2"; // or const keySecret = process.env.SECRET_KEY;
 
 const app = require("express")();
 const stripe = require("stripe")(keySecret);
